@@ -25,5 +25,6 @@ $archivo = fopen ($nombreArchivo .".php", "a") or die
 fwrite ($archivo, $estructura);
 fwrite ($archivo, "\n");
 
-
+$nombreArchivo = $nombreArchivo . ".php";
+header ("Location: $nombreArchivo");
 ?>
