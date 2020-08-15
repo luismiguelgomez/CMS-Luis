@@ -12,6 +12,6 @@
   <body>
     <nav class="navbar navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="index.php">PHP MySQL CRUD</a>
+        <a class="navbar-brand" href="index.php">CMS DE LUIS</a>
       </div>
     </nav>
