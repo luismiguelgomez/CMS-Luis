@@ -1,7 +1,7 @@
 <?php
 /*Peticion a pagina para consultar nombre de archivo y texto*/
 $nombreArchivo = $_REQUEST['nombreArchivo'];
-$textoArchivo = $_REQUEST['textoArchivo'];
+$textoArchivo = $_REQUEST['mytextarea'];
 
 
 /*Esctructura básica de cualquier archivo*/
@@ -10,6 +10,7 @@ $estructuraInicio =
 
 $estructuraFin = '<?php include ("../includes/footer.php");?>';
 
+echo $textoArchivo;
 
 /**
  * formar estructura, de esta variable sera la final 
